@@ -18,22 +18,22 @@ If this is an application for a follow-up grant (the continuation of an earlier,
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+- If the name of your project is not descriptive, a tag line: Arculus is a cold storage wallet with a credit card form factor designed to be highly transactional, the goal of this grant is to provide funding for our engineers to integrate Polkadot's chain, and support for coins/tokens built on Polkadot's blockchain.
+- A brief description of your project: We seek to constantly expand the functionality of the Arculus solution; integrating Polkadot and its ecosystem of parachains is part of our vision for the future of digital asset and digital identity security. We want to work with the Web3 Foundation for its mutual beneficial grant program, funding our engineering recourses for Polkadot's integration, and expanding exposure as well as secure usability of Polkadot's ecosystem.
+- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama: Our project relates by asserting the importance of security into your community. Issues with security are rampant in the cryptosphere, even in some cold storage wallets. Arculus' solution does not enable in field firmware upgrades, to assert the importance of security. We would like to extend this to the Polkadot / Substrate / Kusama community.
+- An indication of why your team is interested in creating this project: Our team is passionate about mass adoption of cold storage. We believe that starts with a mobile only experience that's incredibly easy to use. No charging, no buttons, just tap and go. Polkadot and it's system of parachains is highly interesting to our team, and we would like to present the opportunity to include them into our ecosystem, benefiting your community as a whole.
 
 ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
+- Mockups/designs of any UI components: We do not have mockups due to the UI components being limited within a wallet. We would love to send wallets out to important members of the decision committee to get an idea from other integrated chains of how the UI will look and feel.
+- Data models / API specifications of the core functionality: N/A
+- An overview of the technology stack to be used: Curve sr52219.
+- Documentation of core components, protocols, architecture, etc. to be deployed N/A
+- PoC/MVP or other relevant prior work or research on the topic All prior work and research can be viewed and tested within our wallet. Alternatively, getarculus.com.
+- What your project is _not_ or will _not_ provide or implement: We will not impliment staking as part of this grant, however, staking is part of our future additions to our wallet and will be expected to come.
+  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious: The deliverable on our end would be implimenting support for store, send, and recieve DOT and KSM into the Arculus wallet. This enables us to be able to open the door for further functionality, such as other parachains and staking in the future.
 
 
 Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
@@ -45,10 +45,10 @@ Things that shouldn’t be part of the application (see also our [FAQ](../docs/f
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
+- Where and how does your project fit into the ecosystem?: Security and usability for your community by commiting support inside of our cold storage wallet system.
+- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?: Our target audience is anyone who is a part of the w3f community and wants to secure their assets in cold storage.
+- What need(s) does your project meet?: Security.
+- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?: N/A
   - If so, how is your project different?
   - If not, are there similar projects in related ecosystems?
 
@@ -56,40 +56,43 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Name of team leader: Dr. Adam Lowe
+- Names of **Core** team members: Tom D'Eletto, Joe Fahy, Jonah Johnson, Kristin Potocki
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Jonah Johnson
+- **Contact Email:** Contact email jjohnson@arculus.co
+- **Website:** getarculus.com
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 313 Pierce St, Somerset, NJ 08873
+- **Registered Legal Entity:** Arculus Holdings, LLC
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past. 
+Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+- Our development team has implimented a multitude of chains for support in our wallet. This required updating our firmware (and reissuing updated wallets to all existing owners) to support more cryptographic algorithms. In addition, we have implimented support for an eth NFT viewer, wallet connect v2, and support for B2B offerings such as the ability to load a combination of wallet, FIDO, and payment applets onto the secure element chip located on the card.
 
 If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
-
+- N/A
 ### Team Code Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+N/A
 
 Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+N/A
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
+- https://www.linkedin.com/in/adamjlowe/
+- https://www.linkedin.com/in/tdeletto/
+- https://www.linkedin.com/in/joe-fahy-6356546/
+- https://www.linkedin.com/in/kristin-potocki-810406137/
+- https://www.linkedin.com/in/jonahpauljohn/
+
 
 
 ## Development Status :open_book:
